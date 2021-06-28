@@ -1,0 +1,67 @@
+.div{
+    position: relative;
+}
+.bird{
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    top: 0px;
+    left: 50px;
+    animation: bird 5s infinite;
+}
+.koala{
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    top: 300px;
+    left: 570px;
+    animation: koala 5s infinite alternate;
+    transform: rotate(90deg);
+    opacity: 60%;
+}
+.tiger{
+    width: 150px;
+    height: 200px;
+    position: absolute;
+    bottom: 170px;
+    right: 30px;
+    animation: tiger 5s infinite;
+}
+.tiger:hover{
+    opacity:50%;
+}
+.fish{
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    bottom: 0px;
+    left: 50px;
+    animation: fish 5s infinite linear;
+}
+.music{
+    width: 90px;
+    height: 50px;
+    opacity: 20%;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+
+@keyframes bird{
+    from{top: 100px;}
+    to{left: 600px;}
+}
+@keyframes koala{
+    from{top: 500px;}
+    to{bottom: 200px;}
+}
+  
+@keyframes tiger{
+    from{bottom :150px;}
+    to{bottom: 0px;}
+    
+ }
+ @keyframes fish{
+    from {bottom: 150px;}
+    to{left: 400px;}
+ }
