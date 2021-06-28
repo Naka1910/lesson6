@@ -38,14 +38,6 @@
     left: 50px;
     animation: fish 5s infinite linear;
 }
-.music{
-    width: 90px;
-    height: 50px;
-    opacity: 20%;
-    position: absolute;
-    top: 0px;
-    right: 0px;
-}
 
 @keyframes bird{
     from{top: 100px;}
